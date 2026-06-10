@@ -65,15 +65,15 @@ export default function Hero() {
           Rhema Briggs
         </span>
         <span className="flex items-center gap-[clamp(20px,2.4vw,38px)]">
-          <a href="#about" className="font-medium text-mute transition-colors hover:text-ink">About</a>
-          <a href="#work" className="font-medium text-mute transition-colors hover:text-ink">Projects</a>
-          <a href="#archive" className="font-medium text-mute transition-colors hover:text-ink">Archive</a>
+          <a href="#about" className="hidden font-medium text-mute transition-colors hover:text-ink sm:inline">About</a>
+          <a href="#work" className="hidden font-medium text-mute transition-colors hover:text-ink sm:inline">Projects</a>
+          <a href="#archive" className="hidden font-medium text-mute transition-colors hover:text-ink sm:inline">Archive</a>
           <a href="#contact" className="font-bold text-ink">Get in touch →</a>
         </span>
       </nav>
 
       {/* Giant inverting wordmark */}
-      <h1 className="pointer-events-none absolute left-1/2 top-[56%] z-[3] w-max -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-[clamp(76px,13vw,212px)] font-extrabold leading-[0.9] tracking-[-0.04em] text-white mix-blend-difference [animation:fadeIn_1.1s_0.35s_both_ease]">
+      <h1 className="pointer-events-none absolute left-1/2 top-[56%] z-[3] w-max -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-[clamp(40px,13vw,212px)] font-extrabold leading-[0.9] tracking-[-0.04em] text-white mix-blend-difference [animation:fadeIn_1.1s_0.35s_both_ease]">
         Rhema Briggs
       </h1>
 
